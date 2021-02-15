@@ -1,4 +1,3 @@
-*.class
 *.log
 *.iml
 *.ipr
@@ -20,6 +19,35 @@ logs/
 project/*-shim.sbt
 project/project/
 project/target/
-target/
 .scala_dependencies
 .worksheet
+
+# bloop and metals
+.bloop
+.bsp
+.metals
+
+# scala 3
+.tasty
+
+# vs code
+.vscode
+
+# sbt
+# (may want to keep parts of 'project')
+project/
+build/
+
+
+# intellij idea
+
+# mac
+.DS_Store
+
+# other?
+.history
+.cache
+.cache-main
+
+#general
+*.class
